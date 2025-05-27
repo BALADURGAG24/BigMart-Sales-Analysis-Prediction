@@ -59,8 +59,8 @@ bigmart-sales-prediction/
 
 1. **Clone the repo**  
 ```bash
-git clone https://github.com/your-username/bigmart-sales-prediction.git
-cd bigmart-sales-prediction
+git clone https://github.com/BALADURGAG24/BigMart-Sales-Analysis-Prediction.git
+cd BigMart-Sales-Analysis-Prediction
 ```
 
 2. **Build and run with Docker Compose**  
@@ -90,7 +90,3 @@ docker compose up --build
 Feel free to fork this project and submit PRs! Feedback is welcome.
 
 ---
-
-## 📄 License
-
-MIT License
