@@ -8,7 +8,7 @@
 ## 🗂️ Project Structure
 
 ```
-bigmart-sales-prediction/
+bigmart-sales-analysis-prediction/
 ├── app/
 │   ├── __init__.py
 │   ├── cli.py                  # CLI commands
