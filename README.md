@@ -6,7 +6,7 @@
 ---
 
 ## 🗂️ Project Structure
-
+ 
 ```
 bigmart-sales-analysis-prediction/
 ├── app/ 
