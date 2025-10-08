@@ -9,7 +9,7 @@
  
 ```
 bigmart-sales-analysis-prediction/
-├── app/ 
+├── app/  
 │   ├── __init__.py
 │   ├── cli.py                  # CLI commands
 │   ├── api.py                  # Flask API
