@@ -13,7 +13,7 @@ bigmart-sales-analysis-prediction/
 │   ├── __init__.py   
 │   ├── cli.py                  # CLI commands 
 │   ├── api.py                  # Flask API  
-│   ├── streamlit_app.py        # Streamlit UI 
+│   ├── streamlit_app.py        # Streamlit UI  
 │   ├── model.py                # Model training, evaluation, prediction logic
 │   ├── preprocessing.py        # Data preprocessing and feature engineering
 │   ├── visualization.py        # EDA plotting functions
