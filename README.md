@@ -8,37 +8,40 @@
 ## 🗂️ Project Structure
  
 ```
-bigmart-sales-analysis-prediction/ 
-├── app/   
-│   ├── __init__.py   
-│   ├── cli.py                  # CLI commands 
-│   ├── api.py                  # Flask API  
-│   ├── streamlit_app.py        # Streamlit UI  
-│   ├── model.py                # Model training, evaluation, prediction logic
-│   ├── preprocessing.py        # Data preprocessing and feature engineering
-│   ├── visualization.py        # EDA plotting functions
-│   ├── utils.py                # Helpers (logging, config, data loading)
-│   ├── logger.py               # Logger setup
-├── config.yaml                 # Config file for parameters
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   ├── processed_train.csv     # After preprocessing (optional)
-├── models/
-│   ├── model_v1.pkl            # Saved models with versioning
-│   ├── model_v1_metrics.json   # Metrics saved alongside model
-├── tests/
-│   ├── test_preprocessing.py   # Unit tests for preprocessing
-│   ├── test_utils.py
-├── notebooks/
-│   ├── BigMart_EDA.ipynb       # Optional extended EDA notebook
-│   ├── Model_Training.ipynb
-├── requirements.txt
-├── Dockerfile
-├── Dockerfile.streamlit
-├── docker-compose.yml
-├── README.md
-├── .env                        # Environment variables (e.g. API keys, secrets)
+Directory structure:
+└── baladurgag24-bigmart-sales-analysis-prediction/
+    ├── README.md
+    ├── config.yaml
+    ├── docker-compose.yml
+    ├── Dockerfile
+    ├── Dockerfile.streamlit
+    ├── LICENSE
+    ├── requirements.txt
+    ├── run.txt
+    ├── app/
+    │   ├── __init__.py
+    │   ├── api.py
+    │   ├── cli.py
+    │   ├── logger.py
+    │   ├── model.py
+    │   ├── preprocessing.py
+    │   ├── streamlit_app.py
+    │   ├── utils.py
+    │   └── visualization.py
+    ├── data/
+    │   ├── test.csv
+    │   └── train.csv
+    ├── models/
+    │   ├── feature_columns.pkl
+    │   ├── label_encoders.pkl
+    │   ├── model_v1.pkl
+    │   └── model_v1_metrics.json
+    ├── notebooks/
+    │   ├── BigMart_EDA.ipynb
+    │   └── Model_Training.ipynb
+    └── tests/
+        ├── test_preprocessing.py
+        └── test_utils.py
 ```
 
 ---
